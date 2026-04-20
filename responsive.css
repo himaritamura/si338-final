@@ -1,0 +1,15 @@
+/* media queries to change num columns */
+
+@media screen and (min-width: 750px) {
+    
+    .song-grid {
+        grid-template-columns: repeat(3, 250px);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .song-grid {
+        grid-template-columns: repeat(4, 250px);
+    }
+}

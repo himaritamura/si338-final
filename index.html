@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <h1>Song Recommender</h1>
+    <!-- User Input: Form -->
+    <form>
+        <label for="genre">Genre:</label>
+        <select name="genre" id="genre">
+            <option value="jazz">Jazz</option>
+            <option value="rock">Rock</option>
+            <option value="pop">Pop</option>
+            <option value="metal">Metal</option>
+            <option value="country">Country</option>
+            <option value="dubstep">Dubstep</option>
+            <option value="grunge">Grunge</option>
+            <option value="club">Club</option>
+            <option value="groove">Groove</option>
+            <option value="afrobeat">Afrobeat</option>
+            <option value="disco">Disco</option>
+            <option value="indie">Indie</option>
+        </select>
+
+        <input type="submit" class="submit-btn" value="Recommend">
+    </form>
+
+    <!-- Ranked Result Cards: Grid -->
+    <div class="song-grid">
+        <!-- <div class="song-card">
+            <h2>Track_Name</h2>
+            <h3>Artist</h3>
+            <h3>Album Name</h3>
+            <h3>Duration</h3>
+            <h3>Energy</h3>
+        </div> -->
+    </div>
+    <script src="dataset.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

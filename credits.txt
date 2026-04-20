@@ -1,0 +1,23 @@
+Dataset:
+https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/code/data
+
+
+JSON:
+https://csvjson.com/csv2json
+https://www.w3schools.com/js/js_loop_for.asp
+https://www.w3schools.com/js/js_events.asp
+https://www.w3schools.com/js/js_maps.asp
+https://codesignal.com/learn/courses/parsing-table-data-1/lessons/parsing-csv-files-with-javascript
+https://www.w3schools.com/jsref/event_onsubmit.asp
+https://stackoverflow.com/a/53066842
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
+
+CSS:
+https://www.w3schools.com/howto/howto_css_cards.asp
+https://www.w3schools.com/css/css_form_inputs.asp
+
+
+
+Google Gemini: python script to convert csv to json
+Google Gemini: python script to cut 90% of songs (load time efficiency)
