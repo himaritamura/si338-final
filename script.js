@@ -35,11 +35,11 @@ function Recommend(event) {
         song_html += recommendations[i].artists;
         song_html += "</h3> <h4>";
         song_html += recommendations[i].album_name;
-        song_html += "</h4> <h4>Duration (ms): ";
+        song_html += "</h4> <h5> <img src='icons/time.svg' alt='Duration icon' class='card-icon'> Duration (ms): ";
         song_html += recommendations[i].duration_ms;
-        song_html += "</h4> <h4>Energy: ";
+        song_html += "</h5> <h5> <img src='icons/energy.svg' alt='Energy icon' class='card-icon'> Energy: ";
         song_html += recommendations[i].energy;
-        song_html += "</h4> </div>";
+        song_html += "</h5> </div>";
 
         song_grid.innerHTML += song_html;
     }

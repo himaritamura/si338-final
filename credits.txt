@@ -1,6 +1,8 @@
 Dataset:
 https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/code/data
 
+Icons:
+https://www.svgrepo.com/
 
 JSON:
 https://csvjson.com/csv2json
