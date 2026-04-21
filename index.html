@@ -8,59 +8,63 @@
     <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    <h1> <img src='icons/music.svg' alt='Music icon' class='header-icon'> Song Recommender</h1>
-    <h2>Welcome to the Song Recommender! Choose a genre to get started.</h2>
-    <!-- User Input: Form -->
-    <form>
-        <label for="genre">Genre:</label>
-        <select name="genre" id="genre">
-            <option value="jazz">Jazz</option>
-            <option value="rock">Rock</option>
-            <option value="pop">Pop</option>
-            <option value="metal">Metal</option>
-            <option value="country">Country</option>
-            <option value="dubstep">Dubstep</option>
-            <option value="grunge">Grunge</option>
-            <option value="club">Club</option>
-            <option value="groove">Groove</option>
-            <option value="afrobeat">Afrobeat</option>
-            <option value="disco">Disco</option>
-            <option value="indie">Indie</option>
-        </select>
+    <header>
+        <h1> <img src='icons/music.svg' alt='Music icon' class='header-icon'> Song Recommender</h1>
+        <h2>Welcome to the Song Recommender! Choose a genre to get started.</h2>
+    </header>
+    <main>
+        <!-- User Input: Form -->
+        <form>
+            <label for="genre">Genre:</label>
+            <select name="genre" id="genre">
+                <option value="jazz">Jazz</option>
+                <option value="rock">Rock</option>
+                <option value="pop">Pop</option>
+                <option value="metal">Metal</option>
+                <option value="country">Country</option>
+                <option value="dubstep">Dubstep</option>
+                <option value="grunge">Grunge</option>
+                <option value="club">Club</option>
+                <option value="groove">Groove</option>
+                <option value="afrobeat">Afrobeat</option>
+                <option value="disco">Disco</option>
+                <option value="indie">Indie</option>
+            </select>
 
-        <input type="submit" class="submit-btn" value="Recommend">
-    </form>
+            <input type="submit" class="submit-btn" value="Recommend">
+        </form>
 
-    <!-- Ranked Result Cards: Grid -->
-    <div class="song-grid">
-        <!-- <div class="song-card">
-            <h2>Track_Name</h2>
-            <h3>Artist</h3>
-            <h4>Album Name</h4>
-            <h5>Duration</h5>
-            <h5>Energy</h5>
-        </div> -->
+        <!-- Ranked Result Cards: Grid -->
+        <div class="song-grid">
+            <!-- <div class="song-card">
+                <h2>Track_Name</h2>
+                <h3>Artist</h3>
+                <h4>Album Name</h4>
+                <h5>Duration</h5>
+                <h5>Energy</h5>
+            </div> -->
 
-        <!-- <div class="song-card">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h2>Track_Name</h2>
-                    <h3>Artist</h3>
-                    <h4>Album Name</h4>
-                    <h5>Duration</h5>
-                    <h5>Energy</h5>
+            <!-- <div class="song-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h2>Track_Name</h2>
+                        <h3>Artist</h3>
+                        <h4>Album Name</h4>
+                        <h5>Duration</h5>
+                        <h5>Energy</h5>
+                    </div>
+                    <div class="card-back">
+                        <h6>Explicit</h6>
+                        <h6>Popularity</h6>
+                        <h6>Danceability</h6>
+                        <h6>Key</h6>
+                        <h6>Tempo</h6>
+                    </div>
                 </div>
-                <div class="card-back">
-                    <h6>Explicit</h6>
-                    <h6>Popularity</h6>
-                    <h6>Danceability</h6>
-                    <h6>Key</h6>
-                    <h6>Tempo</h6>
-                </div>
-            </div>
-        </div> -->
+            </div> -->
 
-    </div>
+        </div>
+    </main>
 
     <footer>
         <p>Made by Himari Tamura for SI 338, 2026</p>
